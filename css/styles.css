@@ -1,0 +1,273 @@
+body{
+    background-color: skyblue;
+    font-family: "Montserrat"; 
+    background-color: #4169e1;
+    text-align: center;
+}
+
+
+h1,h2,h3
+{   
+    font-family: "Montserrat black";
+    
+}
+
+.naslov{
+    font-size :3rem;
+    line-height: 3.5rem;
+    text-align:left;
+
+}
+
+.podNaslov{
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+
+.textLowWeight{
+    
+    font-weight: 500;
+}
+
+.whiteColorSection{
+    color:white;
+}
+
+
+
+
+
+span{
+    color: black;
+    text-decoration: line-through;
+}
+/* this is the title section */
+
+
+
+
+#title .container-fluid
+{
+    background-color:#84a5fc00;
+    padding: 3% 15% 5%;
+    
+    
+}
+
+
+
+
+
+.download-button
+{
+    
+    margin: 5% 3% 5%;
+    
+
+    
+}
+
+/* NAVBAR */
+.navbar{
+    padding: 0%  0% 3.5rem;
+}
+
+/* NAVBAR BRAND */
+.navbar-brand{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+.nav-item
+{
+    padding:0 30px
+}
+
+
+.navLinkText{
+    font-weight:700;
+
+}
+
+.navLinkText:hover{
+    background-color: rgba(36, 0, 113, 0.49);
+    border-radius:80%;
+    
+}
+
+
+
+/* features SECTION */
+
+
+#features
+{
+    
+    background-color: #88a6fff2;
+    position: relative;
+    
+    
+}
+
+.iphone-image
+{
+   
+    position: absolute;
+    width: 20%;
+    padding: 0px 0 30% 0px;
+    /* KOGA SAKAS DA ROTIRAS ROTACIITE STAVAJ GI VO style.css zosto ako ostane  vo linija na img vo html(hierarhija na HTML ke e override ) od tako ke ja vlece rotacijata i ke nema da funkcionira @media*/
+    transform: rotate(20deg); 
+    
+    
+    
+    
+
+}
+
+#branId.branIlustrator{
+    position: relative;
+    width: 100%;
+    
+}
+.branIlustratorDole{
+    
+    margin-bottom: 5px;
+}
+
+
+
+/* FEATURE BOX */
+
+.features-box{
+    
+    padding-bottom: 1rem;
+    
+
+}
+
+
+
+
+
+.icon-class{
+    padding-bottom:1rem;
+    color:#4169e1;;
+}
+
+
+
+
+
+
+.testimonial-image{
+    width:20%;
+    border-radius:100%;
+    
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+
+.carouselIcon{
+    width: 70px;
+    height: 70px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+}
+
+
+/* press SECTION */
+#press
+{
+    
+    
+    opacity: 36%;
+}
+
+.image-logo
+{
+    width: 23%;
+    
+}
+/* pricing SECTION */
+#pricing
+{
+    
+    padding-bottom: 6rem;
+   
+}
+
+
+.card-body
+{
+    color:black;
+}
+
+
+
+
+
+
+
+.buttonPricing:hover
+{
+    background-color: aliceblue;
+    color: black;
+}
+
+.buttonCta:hover
+{
+    background-color: #60c3eb;
+}
+
+#footer{
+    
+    padding: 7% 15%;
+    background-color: #4169e1;
+}
+
+
+@media(max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .iphone-image{
+       
+    transform: rotate(0deg);    
+    position: static;
+    width: 60%;
+    padding: 0;
+    
+
+    }
+    .linkMovePodTindog{
+        padding-right: 513px;
+        text-align: left;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
