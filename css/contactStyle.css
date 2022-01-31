@@ -78,21 +78,7 @@ label
 }
 
 
-.hrContact
-{   
-    background-color: transparent;
-    border-style: double none;
-    border-color: rgba(36, 0, 113, 0.49);
-    border-width: 11px;
-    /* height: 3px; */
-    /* margin: 4px; */
-    /* padding: 51px; */
-    position: relative;
-    top: -159px;
-    width: 96%;
-    left: -4px;
-    height: 0px;
-}
+
 
 .hrOne{
     background-color: black;
